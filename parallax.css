@@ -53,7 +53,7 @@ p {
     position: relative;
 }
 
-.group1 {z-index:100; position: static; height: 110vh;}
+.group1 {z-index:100; position: static; height: 130vh;}
 .group1-bg {
     background-attachment: fixed;
     background-image: url('images/airbrakemx-intro-new.jpg');
