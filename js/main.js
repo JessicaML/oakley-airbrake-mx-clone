@@ -4,9 +4,6 @@ var app = app || {};
 (function () {
     'use strict';
 
-    console.log('controller');
-    console.log(app);
-
     app.Main = function (groups) {
         this.lastScrollY = 0;
         this.ticking = false;

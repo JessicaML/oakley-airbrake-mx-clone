@@ -80,6 +80,7 @@ p {
 .group3 {
     height: 1000px;
     position: static;
+    visibility: hidden;
     z-index: 80;
 }
 .group3__gallery {
@@ -97,10 +98,13 @@ p {
 }
 .group3__impact-data {
     z-index:1000; position: fixed; top:70px; left:80px;
+    opacity: 0;
 }
 
 .group3__impact-rock {
     z-index:1000; position: fixed; top:120px; left:80px;
+    transform: translate3d(-70px, -20px, 0);
+    opacity: 0;
 }
 
 
