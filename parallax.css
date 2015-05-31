@@ -53,7 +53,7 @@ p {
     position: relative;
 }
 
-.group1 {z-index:100; position: static;}
+.group1 {z-index:100; position: static; height: 110vh;}
 .group1-bg {
     background-attachment: fixed;
     background-image: url('images/airbrakemx-intro-new.jpg');
@@ -95,15 +95,13 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-.group3-bg {
-    background-attachment: fixed;
-    background-image: url('images/WEB_AMX_shot001_00001.jpg');
-    background-position: center 50px;
-    background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
+.group3__impact-data {
+    z-index:1000; position: fixed; top:70px; left:80px;
 }
 
+.group3__impact-rock {
+    z-index:1000; position: fixed; top:120px; left:80px;
+}
 
 
 .parallax-anim {

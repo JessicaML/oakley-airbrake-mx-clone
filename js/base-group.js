@@ -27,8 +27,12 @@ var app = app || {};
 
         isGroupOnScreen: function () {
             var vp = this.getViewport();
+            
+            // if((this.top >= vp.top && this.top <= vp.bottom) || (this.bottom >= vp.top && this.bottom <= vp.bottom)) {
+            //     return true;
+            // }
 
-            if((this.top >= vp.top && this.top <= vp.bottom) || (this.bottom >= vp.top && this.bottom <= vp.bottom)) {
+            if((vp.top >= this.top && vp.top <= this.bottom) || (vp.bottom >= this.top && vp.bottom <= this.bottom)) {
                 return true;
             }
 
